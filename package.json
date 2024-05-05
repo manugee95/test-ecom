@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "server": "json-server --watch db.json",
-    "start": "concurrently \"npm run dev \" \"npm run server \""
+    "start": "concurrently \"npm run build \" \"npm run server \""
   },
   "dependencies": {
     "concurrently": "^8.2.2",
